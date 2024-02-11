@@ -2,6 +2,7 @@ import streamlit as st
 from PIL import Image
 import numpy as np
 import pickle
+import tensorflow
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
 from tensorflow.keras.preprocessing.sequence import pad_sequences
